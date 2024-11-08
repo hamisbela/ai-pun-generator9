@@ -18,10 +18,10 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/jokes" element={<JokesPage />} />
-            <Route path="/wordplay" element={<WordplayPage />} />
-            <Route path="/riddles" element={<RiddlePage />} />
-            <Route path="/epigrams" element={<EpigramPage />} />
+            <Route path="/ai-jokes-generator" element={<JokesPage />} />
+            <Route path="/ai-wordplay-generator" element={<WordplayPage />} />
+            <Route path="/ai-riddles-generator" element={<RiddlePage />} />
+            <Route path="/ai-epigrams-generator" element={<EpigramPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
